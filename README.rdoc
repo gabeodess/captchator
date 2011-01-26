@@ -1,7 +1,7 @@
 Captchator
 ==========
 
-This plugin is inspired by reCaptcha's lack of a human readable library.  It is powered by Captchator project (http://captchator.com/).  Please direct questions and feedback to myself gabeodess@gmail.com.
+This plugin is inspired by reCaptcha's lack of a human readable library.  It is powered by the Captchator project (http://captchator.com/).  Please direct questions and feedback to myself gabeodess@gmail.com.
 
 
 Example
