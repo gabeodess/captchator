@@ -18,4 +18,4 @@ verify_captchator #	returns true or false
 save_with_captchator(@my_record)
 
 
-Copyright (c) 2011 [name of plugin creator], released under the MIT license
+Copyright (c) 2011 Gabriel Odess-Gillett, released under the MIT license
