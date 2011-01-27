@@ -10,6 +10,10 @@ module Captchator
     end
 
     module InstanceMethods
+      def captchator_instructions
+        ENV['captchator_instructions'] || "Please write the text shown in the captcha box to prove you're not a machine."
+      end
+      
       def captchator_tags
         captchator_label + captchator_input
       end
