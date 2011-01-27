@@ -65,7 +65,12 @@ HTML
       end
 
       def verify_captchator
+        return captchator_test if Rails.env.test?
         open("http://captchator.com/captcha/check_answer/#{captchator_session_id}/#{params[:captchator_answer]}").read == '1'
+      end
+      
+      def captchator_test
+        true
       end
     end
     
