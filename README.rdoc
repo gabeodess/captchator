@@ -1,6 +1,9 @@
 = Captchator
 The captchator gem provides a seamless captcha interface for Rails applications with easily readable captcha images.  Thanks to http://captchator.com/ for the library.
 
+= Installation
+ gem 'captchator'
+
 = Usage
 In your view
  <%= captchator_tags %>
