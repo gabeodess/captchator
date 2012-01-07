@@ -8,7 +8,7 @@ In your view
 In your controller
  verify_captchator # returns true or false
 
-If you user would like seamless integration with your model errors you can call 
+-or- if you would like seamless integration with your model errors you can call 
  save_with_captchator(@my_model)
 
 = Contact
