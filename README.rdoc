@@ -1,19 +1,17 @@
 = Captchator
-
- - The captchator gem provides a seamless captcha interface for Rails applications with easily readable captcha images.  Thanks to http://captchator.com/ for the library.
+The captchator gem provides a seamless captcha interface for Rails applications with easily readable captcha images.  Thanks to http://captchator.com/ for the library.
 
 = Usage
+In your view
+ <%= captchator_tags %>
 
- - In your view
-    - <%= captchator_tags %>
+In your controller
+ verify_captchator # returns true or false
 
- - In your controller
-    - verify_captchator # returns true or false
-
- - if you user would like seamless integration with your model errors you can call 
-    - save_with_captchator(@my_model)
+If you user would like seamless integration with your model errors you can call 
+ save_with_captchator(@my_model)
 
 = Contact
-  - if you have any questions, please contact me (gabeodess@gmail.com).
+if you have any questions, please contact me (gabeodess@gmail.com).
 
 This project rocks and uses MIT-LICENSE.
