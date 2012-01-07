@@ -1,21 +1,3 @@
-Captchator
-==========
+= Captchator
 
-This plugin is inspired by reCaptcha's lack of a human readable library.  It is powered by the Captchator project (http://captchator.com/).  Please direct questions and feedback to myself gabeodess@gmail.com.
-
-
-Example
-=======
-
-= View
-<%= captchator_tags %>
-
-= Controller
-verify_captchator #	returns true or false
-
--or-
-
-save_with_captchator(@my_record)
-
-
-Copyright (c) 2011 Gabriel Odess-Gillett, released under the MIT license
+This project rocks and uses MIT-LICENSE.
