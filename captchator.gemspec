@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Captchator::VERSION
   s.authors     = ["Gabriel Odess-Gillett"]
   s.email       = ["gabeodess@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/gabeodess/captchator"
   s.summary     = "A more readable captcha library alternative to recaptcha."
   s.description = "Due to many unrequited complaints to the recaptcha gem with regard to it unreadability for real human users, this gem offers a more readable selection of captcha images."
 
