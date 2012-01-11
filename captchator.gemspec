@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["gabeodess@gmail.com"]
   s.homepage    = "https://github.com/gabeodess/captchator"
   s.summary     = "A more readable captcha library alternative to recaptcha."
-  s.description = "Due to many unrequited complaints to the recaptcha gem with regard to it unreadability for real human users, this gem offers a more readable selection of captcha images."
+  s.description = "Due to many unrequited complaints to the recaptcha team with regard to its unreadability for real human users, this gem offers a more readable selection of captcha images."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
