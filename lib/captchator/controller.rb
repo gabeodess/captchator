@@ -1,7 +1,7 @@
 module Captchator
   module Controller
 
-    # => Accepts the following options: message.
+    # Accepts the following options: message.
     def save_with_captchator(record, options = {})
       message = options[:message] || "Captchator thinks you are a robot.  Please try again."
       return record.save unless record.valid?
