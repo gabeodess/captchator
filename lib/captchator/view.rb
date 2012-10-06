@@ -32,9 +32,11 @@ return false;
     end
 
     def captchator_image
+      raw(
 <<-HTML
 <img src="#{captchator_image_path}" id="captchator_image" />
 HTML
+      )
     end
   end
 end
